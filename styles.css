@@ -1,0 +1,16 @@
+
+
+.image{
+	background-image: url("torre_ifel.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 100vh;
+	width: 100vw; 
+}
+
+.texto{
+	padding-top: 20%;
+	text-align: center;
+	font-size: 100px;
+}
+
