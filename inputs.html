@@ -1,117 +1,132 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Inputs</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 <body>
-	<div class="row container" style="text-align: center; font-size: 30px">
-		<label>Inputs</label>
-	</div>
-	<div class="container row">
-		<div class="col-lg-4"">
-			<form>
-				<div class="form-group">
-					<label for="texto">Type: text</label> 
-					<input class="form-control" type="text" name="texto" placeholder="Este es un place holder">
-				</div>
-				<div class="form-group">
-					<label for="contraseÃ±a"></label> Type: Password
-					<input class="form-control" type="Password" name="contraseÃ±a">
-				</div>
-				<div class="form-group">
-					<label for="radiob">Type: Radio</label> 
-					<div class="radio">
-						<label><input type="Radio" name="radiob">Opcion 1</label>
-					</div>
-					<div class="radio">
-						<label><input type="Radio" name="radiob">Opcion 2</label>
-					</div>
-					<div class="radio">
-						<label><input type="Radio" name="radiob">Opcion 3</label>
-					</div>
-				</div>
-				<div class="form-group">
-					<label>CheckBox</label>
-					<div class="checkbox">
-						<label><input type="checkbox" name="chequeo">Opcion 1</label>
-					</div>
-					<div class="checkbox">
-						<label><input type="checkbox" name="chequeo">Opcion 2</label>
-					</div>
-					<div class="checkbox">
-						<label><input type="checkbox" name="chequeo">Opcion 3</label>
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="btnenviar">Button</label><br>
-					<button class="btn btn-primary btn-lg" id="btnenviar">Enviar</button>
-				</div>
-			</form>	
+	<header>
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+			    <ul class="nav navbar-nav">
+				    <li><a href="index.html">Home</a></li>
+				    <li><a href="images.html">Displays</a></li>
+				    <li><a href="inputs.html">Inputs</a></li>
+			    </ul>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="row " style="text-align: center; font-size: 30px">
+			<label>Inputs</label>
 		</div>
-		<div class="col-lg-4">
-			<form>
-				<div class="form-group">
-					<label>Colores:</label>
-					<input class="form-control" type="color" name="colores">
-				</div>
-				<div class="form-group">
-					<label>Fecha:</label>
-					<input class="form-control" type="date" name="fecha">
-				</div>
-				<div class="form-group">
-					<label>Seleccionar:</label>
-					<select class="form-control" name="pais">
-						<option value="1">Mexico</option>
-						<option value="2">USA</option>
-						<option value="3">Canada</option>
-					</select>
-				</div>
-				<div class="form-group">
-					<label>Fecha y tiempo:</label>
-					<input class="form-control" type="datetime-local" name="fechalocal">
-				</div>
-				<div class="form-group">
-					<label>Correo:</label>
-					<input class="form-control" type="email" name="correo">
-				</div>
-				<div class="form-group">
-					<label>Mes:</label>
-					<input class="form-control" type="month" name="mes">
-				</div>
-			</form>
-		</div>
-		<div class="col-lg-4">
-			<form>
-				<div class="form-group">
-					<label>Numeros:</label>
-					<input class="form-control" type="number" name="numero">
-				</div>
-				<div class="form-group">
-					<label>Rango:</label>
-					<input class="form-control" type="range" name="rango">
-				</div>
-				<div class="form-group">
-					<label>Buscar:</label>
-					<input class="form-control" type="search" name="buscar">
-				</div>
-				<div class="form-group">
-					<label>Telefono:</label>
-					<input class="form-control" type="tel" name="telefono">
-				</div>
-				<div class="form-group">
-					<label>Tiempo:</label>
-					<input class="form-control" type="time" name="tiempo">
-				</div>
-				<div class="form-group">
-					<label>Semanas:</label>
-					<input class="form-control" type="week" name="semanas">
-				</div>
+		<div class=" row">
+			<div class="col-lg-4"">
+				<form>
+					<div class="form-group">
+						<label for="texto">Type: text</label> 
+						<input class="form-control" type="text" name="texto" placeholder="Este es un place holder">
+					</div>
+					<div class="form-group">
+						<label for="contraseña"></label> Type: Password
+						<input class="form-control" type="Password" name="contraseña">
+					</div>
+					<div class="form-group">
+						<label for="radiob">Type: Radio</label> 
+						<div class="radio">
+							<label><input type="Radio" name="radiob">Opcion 1</label>
+						</div>
+						<div class="radio">
+							<label><input type="Radio" name="radiob">Opcion 2</label>
+						</div>
+						<div class="radio">
+							<label><input type="Radio" name="radiob">Opcion 3</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label>CheckBox</label>
+						<div class="checkbox">
+							<label><input type="checkbox" name="chequeo">Opcion 1</label>
+						</div>
+						<div class="checkbox">
+							<label><input type="checkbox" name="chequeo">Opcion 2</label>
+						</div>
+						<div class="checkbox">
+							<label><input type="checkbox" name="chequeo">Opcion 3</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="btnenviar">Button</label><br>
+						<button class="btn btn-primary btn-lg" id="btnenviar">Enviar</button>
+					</div>
+				</form>	
+			</div>
+			<div class="col-lg-4">
+				<form>
+					<div class="form-group">
+						<label>Colores:</label>
+						<input class="form-control" type="color" name="colores">
+					</div>
+					<div class="form-group">
+						<label>Fecha:</label>
+						<input class="form-control" type="date" name="fecha">
+					</div>
+					<div class="form-group">
+						<label>Seleccionar:</label>
+						<select class="form-control" name="pais">
+							<option value="1">Mexico</option>
+							<option value="2">USA</option>
+							<option value="3">Canada</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label>Fecha y tiempo:</label>
+						<input class="form-control" type="datetime-local" name="fechalocal">
+					</div>
+					<div class="form-group">
+						<label>Correo:</label>
+						<input class="form-control" type="email" name="correo">
+					</div>
+					<div class="form-group">
+						<label>Mes:</label>
+						<input class="form-control" type="month" name="mes">
+					</div>
+				</form>
+			</div>
+			<div class="col-lg-4">
+				<form>
+					<div class="form-group">
+						<label>Numeros:</label>
+						<input class="form-control" type="number" name="numero">
+					</div>
+					<div class="form-group">
+						<label>Rango:</label>
+						<input class="form-control" type="range" name="rango">
+					</div>
+					<div class="form-group">
+						<label>Buscar:</label>
+						<input class="form-control" type="search" name="buscar">
+					</div>
+					<div class="form-group">
+						<label>Telefono:</label>
+						<input class="form-control" type="tel" name="telefono">
+					</div>
+					<div class="form-group">
+						<label>Tiempo:</label>
+						<input class="form-control" type="time" name="tiempo">
+					</div>
+					<div class="form-group">
+						<label>Semanas:</label>
+						<input class="form-control" type="week" name="semanas">
+					</div>
 
-			</form>
-			
+				</form>
+				
+			</div>
 		</div>
 	</div>
+	
 
 </body>
 </html>

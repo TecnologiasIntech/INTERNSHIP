@@ -1,16 +1,37 @@
-
-
-.image{
-	background-image: url("torre_ifel.jpg");
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	height: 100vh;
+.fondo{
+	background-image: url(torre_ifel.jpg); 
 	width: 100vw; 
+	height: 100vh;
+	background-repeat: no-repeat;
 }
 
-.texto{
-	padding-top: 20%;
+.images{
+	width: 40%; 
+	margin-left: 30%
+}
+
+.picture{
+	max-width: 50%; 
+	height: auto; 
+	margin-left: 25%; 
+}
+
+.textcenter{
 	text-align: center;
-	font-size: 100px;
+}
+.margen35{
+	margin-top: 35px;
+}
+.imgemoji{
+	max-width: 50%; 
+	height: auto; 
+	margin-left: 25%; 
 }
 
+.trampita{
+	overflow-x: hidden;
+}
+.titulo{
+	margin-top: 55vh; 
+	text-align: center;
+}
